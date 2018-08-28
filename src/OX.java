@@ -8,6 +8,7 @@ public class OX {
     private String player;
     private int countX;
     private int countO;
+    private int x = 0;
     private int countDraw;
     public String getTableString() {
         String resultt = "";
@@ -18,5 +19,7 @@ public class OX {
             resultt = resultt + "\n";
         }
         return resultt;
+
+
     }
 }
